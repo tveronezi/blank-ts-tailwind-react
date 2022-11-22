@@ -1,13 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "@fontsource/barlow";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { Intl } from "./lib/components/intl";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
     <React.StrictMode>
-        <App />
+        <Intl>
+            <App />
+        </Intl>
     </React.StrictMode>
 );
 
