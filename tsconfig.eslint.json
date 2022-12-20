@@ -1,0 +1,5 @@
+{
+    "extends": "./tsconfig.json",
+    "include": ["**/src/**/*.ts", "**/src/**/*.tsx", "cypress.config.ts", "**/e2e/**/*.ts"],
+    "exclude": ["*.js", "*.eslintrc.cjs"]
+}
